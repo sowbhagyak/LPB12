@@ -2,16 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31564" started-at="2019-11-19T03:28:08Z" finished-at="2019-11-19T03:28:39Z">
+  <suite name="Default suite" duration-ms="76506" started-at="2019-11-22T02:06:56Z" finished-at="2019-11-22T02:08:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31564" started-at="2019-11-19T03:28:08Z" finished-at="2019-11-19T03:28:39Z">
-      <class name="simple.Tests">
-        <test-method status="PASS" signature="magentoLogin()[pri:0, instance:simple.Tests@724af044]" name="magentoLogin" duration-ms="31510" started-at="2019-11-19T08:58:08Z" finished-at="2019-11-19T08:58:39Z">
+    <test name="Default test" duration-ms="76506" started-at="2019-11-22T02:06:56Z" finished-at="2019-11-22T02:08:12Z">
+      <class name="com.training.sanity.tests.AdminLogin">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.AdminLogin@c038203]" name="setUpBeforeClass" is-config="true" duration-ms="18" started-at="2019-11-22T07:36:56Z" finished-at="2019-11-22T07:36:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- magentoLogin -->
-      </class> <!-- simple.Tests -->
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.AdminLogin@c038203]" name="setUp" is-config="true" duration-ms="65152" started-at="2019-11-22T07:36:56Z" finished-at="2019-11-22T07:38:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.AdminLogin@c038203]" name="validLoginTest" duration-ms="9360" started-at="2019-11-22T07:38:01Z" finished-at="2019-11-22T07:38:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AdminLogin@c038203]" name="tearDown" is-config="true" duration-ms="1955" started-at="2019-11-22T07:38:10Z" finished-at="2019-11-22T07:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.AdminLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
